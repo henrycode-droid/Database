@@ -3,6 +3,7 @@
 // includes/db.php
 // Database connection configuration
 // International Student Services Database
+// DB Environment variables needs to be added to Railway
 // ============================================================
 
 $DB_HOST = "localhost";
