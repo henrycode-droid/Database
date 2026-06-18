@@ -6,7 +6,8 @@
 // DB Environment variables needs to be added to Railway
 // ============================================================
 
-$DB_HOST = "localhost";
+// $DB_HOST = "localhost";
+$DB_HOST = "127.0.0.1";
 $DB_NAME = "intl_students_db";
 $DB_USER = "root";
 $DB_PASS = "";        // default XAMPP password is blank
