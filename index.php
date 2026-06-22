@@ -3,7 +3,7 @@
 // index.php
 // Main Dashboard — KPI cards, quick access, alerts, search
 // ============================================================
-$pdo = require_once __DIR__ . 'includes/db.php';
+$pdo = require_once __DIR__ . '/includes/db.php';
 echo "Application running successfully";
 
 // ------------------------------------------------------------
