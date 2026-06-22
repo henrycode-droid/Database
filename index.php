@@ -6,6 +6,11 @@
 $pdo = require_once __DIR__ . '/includes/db.php';
 echo "Application running successfully";
 
+// Run once
+$pdo->exec(file_get_contents(__DIR__ . '/intl_students_db.sql'));
+echo "Database imported successfully.";
+exit;
+
 // ------------------------------------------------------------
 // KPI QUERIES
 // ------------------------------------------------------------
